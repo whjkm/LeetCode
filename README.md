@@ -11,6 +11,11 @@ LeetCode刷题代码库
 |371|[Sum of Two Integers][16]|[C++][17]|[python][18]|sum of bit|
 |706|[Design HashMap][19]|[C++][20]|[python][21]|HashMap|
 
+## Medium
+|  #  | Title      |  Solution  |Solution| Tag |  Note  | 
+|-----|------------| ---------- | ------ | ----|--------|
+|3|[Longest Substring Without Repeating Characters][22]|[C++][23]|[python][24]|String|
+
 
   [1]: https://leetcode.com/problems/two-sum/description/
   [2]: ./C++/1/main.cpp
@@ -33,3 +38,6 @@ LeetCode刷题代码库
   [19]: https://leetcode.com/problems/design-hashmap/description/
   [20]: ./C++/706/main.cpp
   [21]: ./Python/706.py
+  [22]: https://leetcode.com/problemset/top-interview-questions/
+  [23]: ./C++/3/main.cpp
+  [24]: ./Python/3.py
