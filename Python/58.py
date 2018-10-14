@@ -4,8 +4,9 @@ class Solution:
         :type s: str
         :rtype: int
         """
-        str = s.split()
-        s1 = "".join(str[-1:])
+
+        str = s.split()                   # 去除字符串中的空格
+        s1 = "".join(str[-1:])            # 将单词列表中的最后一个单词取出
         return len(s1)
 
     '''
