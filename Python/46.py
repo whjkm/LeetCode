@@ -20,12 +20,35 @@ class Solution:
             perms = new_perms
         return perms
 
-    # Using the library
+    # Using DFS
     def permute1(self, nums):
-        return list(itertools.permutations(nums))
+        res = []
+        level, available, level_node = 0, nums, []
+        N = len(nums)
 
+        def DFS(level, available, level_node):
+            if level == N:
+                res.append(level_node)
+                return
+            for i in range(len(available)):
+                DFS(level+1, available[:i] + available[i+1:], level_node + [available[i]])
 
+        DFS(level, available, level_node)
+        return res
+
+    # Using Backtracking
+    def permute2(self, nums):
+        def backtrack(start, end):
+            if start == end:
+                res.append(nums[:])
+            for i in range(start, end):
+                nums[start], nums[i] = nums[i], nums[start]     # swap
+                backtrack(start+1, end)
+                nums[start], nums[i] = nums[i], nums[start]
+        res = []
+        backtrack(0, len(nums))
+        return res
 
 if __name__ == "__main__":
     nums = [1, 2, 3]
-    print(Solution().permute(nums))
+    print(Solution().permute2(nums))
