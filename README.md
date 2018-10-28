@@ -11,26 +11,27 @@ LeetCode刷题代码库
 |70|[Climbing Stairs][16]|[C++][17]|[python][18]|DP|
 |136|[Single Number][19]|[C++][20]|[python][21]||
 |169|[Majority Element][22]|[C++][23]|[python][24]|Array|
-|258|[Add Digits][25]|[C++][26]|[python][27]||
-|344|[Reverse String][28]|[C++][29]|[python][30]|String|
-|371|[Sum of Two Integers][31]|[C++][32]|[python][33]||
-|412|[Fizz Buzz][34]|[C++][35]|[python][36]|Sum of bit|
-|706|[Design HashMap][37]|[C++][38]|[python][39]|HashMap|
+|202|[Happy Number][25]|[C++][26]|[python][27]|Math|
+|258|[Add Digits][28]|[C++][29]|[python][30]||
+|344|[Reverse String][31]|[C++][32]|[python][33]|String|
+|371|[Sum of Two Integers][34]|[C++][35]|[python][36]||
+|412|[Fizz Buzz][37]|[C++][38]|[python][39]|Sum of bit|
+|706|[Design HashMap][40]|[C++][41]|[python][42]|HashMap|
 
 ## Medium
 |  #  | Title      |  Solution  |Solution| Tag |  Note  | 
 |-----|------------| ---------- | ------ | ----|--------|
-|3|[Longest Substring Without Repeating Characters][40]|[C++][41]|[python][42]|String|
-|11|[Container with Most Water][43]|[C++][44]|[python][45]|Array|
-|15|[3sum][46]|[C++][47]|[python][48]|Array|
-|46|[Permutations][49]|[C++][50]|[python][51]|Backtracking|
-|54|[Spiral Matrix][52]|[C++][53]|[python][54]|Array|
+|3|[Longest Substring Without Repeating Characters][43]|[C++][44]|[python][45]|String|
+|11|[Container with Most Water][46]|[C++][47]|[python][48]|Array|
+|15|[3sum][49]|[C++][50]|[python][51]|Array|
+|46|[Permutations][52]|[C++][53]|[python][54]|Backtracking|
+|54|[Spiral Matrix][55]|[C++][56]|[python][57]|Array|
 
 
 ## Hard
 |  #  | Title      |  Solution  |Solution| Tag |  Note  | 
 |-----|------------| ---------- | ------ | ----|--------|
-|4|[Median of Two Sorted Arrays][55]|[C++][56]|[python][57]|Array|
+|4|[Median of Two Sorted Arrays][58]|[C++][59]|[python][60]|Array|
 
 
   [1]: https://leetcode.com/problems/two-sum/description/
@@ -57,36 +58,39 @@ LeetCode刷题代码库
   [22]: https://leetcode.com/problems/majority-element/
   [23]: ./C++/169/main.cpp
   [24]: ./Python/169.py
-  [25]: https://leetcode.com/problems/add-digits/description/
-  [26]: ./C++/258/main.cpp
-  [27]: ./Python/258.py
-  [28]: https://leetcode.com/problems/reverse-string/description/
+  [25]: https://leetcode.com/problems/happy-number/
+  [26]: ./C++/202/main.cpp
+  [27]: ./Python/202.py
+  [28]: https://leetcode.com/problems/add-digits/description/
   [29]: ./C++/258/main.cpp
-  [30]: ./Python/344.py
-  [31]: https://leetcode.com/problems/sum-of-two-integers/description/
-  [32]: ./C++/371/main.cpp
-  [33]: ./Python/371.py
-  [34]: https://leetcode.com/problems/fizz-buzz/
-  [35]: ./C++/412/main.cpp
-  [36]: ./Python/412.py
-  [37]: https://leetcode.com/problems/design-hashmap/description/
-  [38]: ./C++/706/main.cpp
-  [39]: ./Python/706.py
-  [40]: https://leetcode.com/problemset/top-interview-questions/
-  [41]: ./C++/3/main.cpp
-  [42]: ./Python/3.py
-  [43]: https://leetcode.com/problems/container-with-most-water/
-  [44]: ./C++/11/main.cpp
-  [45]: ./Python/11.py
-  [46]: https://leetcode.com/problems/3sum/description/
-  [47]: ./C++/15/main.cpp
-  [48]: ./Python/15.py
-  [49]: https://leetcode.com/problems/permutations/
-  [50]: ./C++/46/main.cpp
-  [51]: ./Python/46.py
-  [52]: https://leetcode.com/problems/spiral-matrix/
-  [53]: ./C++/54/main.cpp
-  [54]: ./Python/54.py
-  [55]: https://leetcode.com/problems/median-of-two-sorted-arrays/
-  [56]: ./C++/4/main.cpp
-  [57]: ./Python/4.py
+  [30]: ./Python/258.py
+  [31]: https://leetcode.com/problems/reverse-string/description/
+  [32]: ./C++/258/main.cpp
+  [33]: ./Python/344.py
+  [34]: https://leetcode.com/problems/sum-of-two-integers/description/
+  [35]: ./C++/371/main.cpp
+  [36]: ./Python/371.py
+  [37]: https://leetcode.com/problems/fizz-buzz/
+  [38]: ./C++/412/main.cpp
+  [39]: ./Python/412.py
+  [40]: https://leetcode.com/problems/design-hashmap/description/
+  [41]: ./C++/706/main.cpp
+  [42]: ./Python/706.py
+  [43]: https://leetcode.com/problemset/top-interview-questions/
+  [44]: ./C++/3/main.cpp
+  [45]: ./Python/3.py
+  [46]: https://leetcode.com/problems/container-with-most-water/
+  [47]: ./C++/11/main.cpp
+  [48]: ./Python/11.py
+  [49]: https://leetcode.com/problems/3sum/description/
+  [50]: ./C++/15/main.cpp
+  [51]: ./Python/15.py
+  [52]: https://leetcode.com/problems/permutations/
+  [53]: ./C++/46/main.cpp
+  [54]: ./Python/46.py
+  [55]: https://leetcode.com/problems/spiral-matrix/
+  [56]: ./C++/54/main.cpp
+  [57]: ./Python/54.py
+  [58]: https://leetcode.com/problems/median-of-two-sorted-arrays/
+  [59]: ./C++/4/main.cpp
+  [60]: ./Python/4.py
