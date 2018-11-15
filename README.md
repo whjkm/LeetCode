@@ -24,17 +24,18 @@ LeetCode刷题代码库
 ## Medium
 |  #  | Title      |  Solution  |Solution| Tag |  Note  | 
 |-----|------------| ---------- | ------ | ----|--------|
+|2|[Add Two Numbers][55]|[C++][56]|[python][57]|Linked List|
 |3|[Longest Substring Without Repeating Characters][52]|[C++][53]|[python][54]|String|
-|11|[Container with Most Water][55]|[C++][56]|[python][57]|Array|
-|15|[3sum][58]|[C++][59]|[python][60]|Array|
-|46|[Permutations][61]|[C++][62]|[python][63]|Backtracking|
-|54|[Spiral Matrix][64]|[C++][65]|[python][66]|Array|
+|11|[Container with Most Water][58]|[C++][59]|[python][60]|Array|
+|15|[3sum][61]|[C++][62]|[python][63]|Array|
+|46|[Permutations][64]|[C++][65]|[python][66]|Backtracking|
+|54|[Spiral Matrix][67]|[C++][68]|[python][69]|Array|
 
 
 ## Hard
 |  #  | Title      |  Solution  |Solution| Tag |  Note  | 
 |-----|------------| ---------- | ------ | ----|--------|
-|4|[Median of Two Sorted Arrays][67]|[C++][68]|[python][69]|Array|
+|4|[Median of Two Sorted Arrays][70]|[C++][71]|[python][72]|Array|
 
 
   [1]: https://leetcode.com/problems/two-sum/description/
@@ -91,18 +92,21 @@ LeetCode刷题代码库
   [52]: https://leetcode.com/problemset/top-interview-questions/
   [53]: ./C++/3/main.cpp
   [54]: ./Python/3.py
-  [55]: https://leetcode.com/problems/container-with-most-water/
-  [56]: ./C++/11/main.cpp
-  [57]: ./Python/11.py
-  [58]: https://leetcode.com/problems/3sum/description/
-  [59]: ./C++/15/main.cpp
-  [60]: ./Python/15.py
-  [61]: https://leetcode.com/problems/permutations/
-  [62]: ./C++/46/main.cpp
-  [63]: ./Python/46.py
-  [64]: https://leetcode.com/problems/spiral-matrix/
-  [65]: ./C++/54/main.cpp
-  [66]: ./Python/54.py
-  [67]: https://leetcode.com/problems/median-of-two-sorted-arrays/
-  [68]: ./C++/4/main.cpp
-  [69]: ./Python/4.py
+  [55]: https://leetcode.com/problems/add-two-numbers
+  [56]: ./C++/2/main.cpp
+  [57]: ./Python/2.py
+  [58]: https://leetcode.com/problems/container-with-most-water/
+  [59]: ./C++/11/main.cpp
+  [60]: ./Python/11.py
+  [61]: https://leetcode.com/problems/3sum/description/
+  [62]: ./C++/15/main.cpp
+  [63]: ./Python/15.py
+  [64]: https://leetcode.com/problems/permutations/
+  [65]: ./C++/46/main.cpp
+  [66]: ./Python/46.py
+  [67]: https://leetcode.com/problems/spiral-matrix/
+  [68]: ./C++/54/main.cpp
+  [69]: ./Python/54.py
+  [70]: https://leetcode.com/problems/median-of-two-sorted-arrays/
+  [71]: ./C++/4/main.cpp
+  [72]: ./Python/4.py
