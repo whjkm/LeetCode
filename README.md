@@ -15,27 +15,28 @@ LeetCode刷题代码库
 |202|[Happy Number][28]|[C++][29]|[python][30]|Math|
 |204|[Count Primes][31]|[C++][32]|[python][33]|Math|
 |206|[Reverse Linked List][34]|[C++][35]|[python][36]|Linked List|
-|258|[Add Digits][37]|[C++][38]|[python][39]||
-|344|[Reverse String][40]|[C++][41]|[python][42]|String|
-|371|[Sum of Two Integers][43]|[C++][44]|[python][45]||
-|412|[Fizz Buzz][46]|[C++][47]|[python][48]|Sum of bit|
-|706|[Design HashMap][49]|[C++][50]|[python][51]|HashMap|
+|234|[Palindrome Linked List][37]|[C++][38]|[python][39]|Linked List|
+|258|[Add Digits][40]|[C++][41]|[python][42]||
+|344|[Reverse String][43]|[C++][44]|[python][45]|String|
+|371|[Sum of Two Integers][46]|[C++][47]|[python][48]||
+|412|[Fizz Buzz][49]|[C++][50]|[python][51]|Sum of bit|
+|706|[Design HashMap][52]|[C++][53]|[python][54]|HashMap|
 
 ## Medium
 |  #  | Title      |  Solution  |Solution| Tag |  Note  | 
 |-----|------------| ---------- | ------ | ----|--------|
 |2|[Add Two Numbers][55]|[C++][56]|[python][57]|Linked List|
-|3|[Longest Substring Without Repeating Characters][52]|[C++][53]|[python][54]|String|
-|11|[Container with Most Water][58]|[C++][59]|[python][60]|Array|
-|15|[3sum][61]|[C++][62]|[python][63]|Array|
-|46|[Permutations][64]|[C++][65]|[python][66]|Backtracking|
-|54|[Spiral Matrix][67]|[C++][68]|[python][69]|Array|
+|3|[Longest Substring Without Repeating Characters][58]|[C++][59]|[python][60]|String|
+|11|[Container with Most Water][61]|[C++][62]|[python][63]|Array|
+|15|[3sum][64]|[C++][65]|[python][66]|Array|
+|46|[Permutations][67]|[C++][68]|[python][69]|Backtracking|
+|54|[Spiral Matrix][70]|[C++][71]|[python][72]|Array|
 
 
 ## Hard
 |  #  | Title      |  Solution  |Solution| Tag |  Note  | 
 |-----|------------| ---------- | ------ | ----|--------|
-|4|[Median of Two Sorted Arrays][70]|[C++][71]|[python][72]|Array|
+|4|[Median of Two Sorted Arrays][73]|[C++][74]|[python][75]|Array|
 
 
   [1]: https://leetcode.com/problems/two-sum/description/
@@ -74,39 +75,42 @@ LeetCode刷题代码库
   [34]: https://leetcode.com/problems/reverse-linked-list/
   [35]: ./C++/206/main.cpp
   [36]: ./Python/206.py
-  [37]: https://leetcode.com/problems/add-digits/description/
-  [38]: ./C++/258/main.cpp
-  [39]: ./Python/258.py
-  [40]: https://leetcode.com/problems/reverse-string/description/
+  [37]: https://leetcode.com/problems/palindrome-linked-list/
+  [38]: ./C++/234/main.cpp
+  [39]: ./Python/234.py
+  [40]: https://leetcode.com/problems/add-digits/description/
   [41]: ./C++/258/main.cpp
-  [42]: ./Python/344.py
-  [43]: https://leetcode.com/problems/sum-of-two-integers/description/
-  [44]: ./C++/371/main.cpp
-  [45]: ./Python/371.py
-  [46]: https://leetcode.com/problems/fizz-buzz/
-  [47]: ./C++/412/main.cpp
-  [48]: ./Python/412.py
-  [49]: https://leetcode.com/problems/design-hashmap/description/
-  [50]: ./C++/706/main.cpp
-  [51]: ./Python/706.py
-  [52]: https://leetcode.com/problemset/top-interview-questions/
-  [53]: ./C++/3/main.cpp
-  [54]: ./Python/3.py
+  [42]: ./Python/258.py
+  [43]: https://leetcode.com/problems/reverse-string/description/
+  [44]: ./C++/258/main.cpp
+  [45]: ./Python/344.py
+  [46]: https://leetcode.com/problems/sum-of-two-integers/description/
+  [47]: ./C++/371/main.cpp
+  [48]: ./Python/371.py
+  [49]: https://leetcode.com/problems/fizz-buzz/
+  [50]: ./C++/412/main.cpp
+  [51]: ./Python/412.py
+  [52]: https://leetcode.com/problems/design-hashmap/description/
+  [53]: ./C++/706/main.cpp
+  [54]: ./Python/706.py
   [55]: https://leetcode.com/problems/add-two-numbers
   [56]: ./C++/2/main.cpp
   [57]: ./Python/2.py
-  [58]: https://leetcode.com/problems/container-with-most-water/
-  [59]: ./C++/11/main.cpp
-  [60]: ./Python/11.py
-  [61]: https://leetcode.com/problems/3sum/description/
-  [62]: ./C++/15/main.cpp
-  [63]: ./Python/15.py
-  [64]: https://leetcode.com/problems/permutations/
-  [65]: ./C++/46/main.cpp
-  [66]: ./Python/46.py
-  [67]: https://leetcode.com/problems/spiral-matrix/
-  [68]: ./C++/54/main.cpp
-  [69]: ./Python/54.py
-  [70]: https://leetcode.com/problems/median-of-two-sorted-arrays/
-  [71]: ./C++/4/main.cpp
-  [72]: ./Python/4.py
+  [58]: https://leetcode.com/problemset/top-interview-questions/
+  [59]: ./C++/3/main.cpp
+  [60]: ./Python/3.py
+  [61]: https://leetcode.com/problems/container-with-most-water/
+  [62]: ./C++/11/main.cpp
+  [63]: ./Python/11.py
+  [64]: https://leetcode.com/problems/3sum/description/
+  [65]: ./C++/15/main.cpp
+  [66]: ./Python/15.py
+  [67]: https://leetcode.com/problems/permutations/
+  [68]: ./C++/46/main.cpp
+  [69]: ./Python/46.py
+  [70]: https://leetcode.com/problems/spiral-matrix/
+  [71]: ./C++/54/main.cpp
+  [72]: ./Python/54.py
+  [73]: https://leetcode.com/problems/median-of-two-sorted-arrays/
+  [74]: ./C++/4/main.cpp
+  [75]: ./Python/4.py
