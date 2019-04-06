@@ -6,114 +6,117 @@ LeetCode刷题代码库
 |-----|-------- | ---------- | ------ | ----|--------|
 |1|[Two Sum][1]|[C++][2]|[python][3]|List||
 |13|[Roman to Integer][4]|[C++][5]|[python][6]|String||
-|53|[Maximum Subarray][7]|[C++][8]|[python][9]|Array|[Solution][76]|
-|58|[Length of Last Word][10]|[c++][11]|[pyhton][12]|String||
-|66|[Plus One][13]|[C++][14]|[python][15]|||
-|70|[Climbing Stairs][16]|[C++][17]|[python][18]|DP||
-|136|[Single Number][19]|[C++][20]|[python][21]|||
-|169|[Majority Element][22]|[C++][23]|[python][24]|Array||
-|171|[Excel Sheet Column Number][25]|[C++][26]|[python][27]|Array||
-|202|[Happy Number][28]|[C++][29]|[python][30]|Math||
-|204|[Count Primes][31]|[C++][32]|[python][33]|Math||
-|206|[Reverse Linked List][34]|[C++][35]|[python][36]|Linked List||
-|234|[Palindrome Linked List][37]|[C++][38]|[python][39]|Linked List||
-|258|[Add Digits][40]|[C++][41]|[python][42]|||
-|344|[Reverse String][43]|[C++][44]|[python][45]|String||
-|371|[Sum of Two Integers][46]|[C++][47]|[python][48]|||
-|412|[Fizz Buzz][49]|[C++][50]|[python][51]|Sum of bit||
-|706|[Design HashMap][52]|[C++][53]|[python][54]|HashMap||
+|53|[Maximum Subarray][7]|[C++][8]|[python][9]|Array|[Solution][10]|
+|58|[Length of Last Word][11]|[c++][12]|[pyhton][13]|String||
+|66|[Plus One][14]|[C++][15]|[python][16]|||
+|70|[Climbing Stairs][17]|[C++][18]|[python][19]|DP||
+|136|[Single Number][20]|[C++][21]|[python][22]||[Solution][23]|
+|169|[Majority Element][24]|[C++][25]|[python][26]|Array||
+|171|[Excel Sheet Column Number][27]|[C++][28]|[python][29]|Array||
+|202|[Happy Number][30]|[C++][31]|[python][32]|Math||
+|204|[Count Primes][33]|[C++][34]|[python][35]|Math||
+|206|[Reverse Linked List][36]|[C++][37]|[python][38]|Linked List||
+|234|[Palindrome Linked List][39]|[C++][40]|[python][41]|Linked List||
+|258|[Add Digits][42]|[C++][43]|[python][44]|||
+|344|[Reverse String][45]|[C++][46]|[python][47]|String||
+|371|[Sum of Two Integers][48]|[C++][49]|[python][50]|||
+|412|[Fizz Buzz][51]|[C++][52]|[python][53]|Sum of bit||
+|665|[Non-decreasing Array][54]|[C++][55]||Array|[Solution][23]|
+|706|[Design HashMap][56]|[C++][57]|[python][58]|HashMap||
 
 ## Medium
 |  #  | Title      |  Solution  |Solution| Tag |  Note  |
 |-----|------------| ---------- | ------ | ----|--------|
-|2|[Add Two Numbers][55]|[C++][56]|[python][57]|Linked List|
-|3|[Longest Substring Without Repeating Characters][58]|[C++][59]|[python][60]|String|
-|11|[Container with Most Water][61]|[C++][62]|[python][63]|Array|
-|15|[3sum][64]|[C++][65]|[python][66]|Array|
-|46|[Permutations][67]|[C++][68]|[python][69]|Backtracking|
-|54|[Spiral Matrix][70]|[C++][71]|[python][72]|Array|
+|2|[Add Two Numbers][59]|[C++][60]|[python][61]|Linked List|
+|3|[Longest Substring Without Repeating Characters][62]|[C++][63]|[python][64]|String|
+|11|[Container with Most Water][65]|[C++][66]|[python][67]|Array|
+|15|[3sum][68]|[C++][69]|[python][70]|Array|
+|46|[Permutations][71]|[C++][72]|[python][73]|Backtracking|
+|54|[Spiral Matrix][74]|[C++][75]|[python][76]|Array|
 
 
 ## Hard
 |  #  | Title      |  Solution  |Solution| Tag |  Note  |
 |-----|------------| ---------- | ------ | ----|--------|
-|4|[Median of Two Sorted Arrays][73]|[C++][74]|[python][75]|Array|
+|4|[Median of Two Sorted Arrays][77]|[C++][78]|[python][79]|Array|
 
 
-[1]: https://leetcode.com/problems/two-sum/description/
-[2]: ./C++/1/main.cpp
-[3]: ./Python/1.py
-[4]: https://leetcode.com/problems/roman-to-integer/
-[5]: ./C++/13/main.cpp
-[6]: ./Python/13.py
-[7]: https://leetcode.com/problems/maximum-subarray/
-[8]: ./C++/53/main.cpp
-[9]: ./Python/53.py
-[10]: https://leetcode.com/problems/length-of-last-word/
-[11]: ./C++/58/main.cpp
-[12]: ./Python/58.py
-[13]: https://leetcode.com/problems/plus-one/description/
-[14]: ./C++/66/main.cpp
-[15]: ./Python/66.py
-[16]: https://leetcode.com/problems/climbing-stairs/
-[17]: ./C++/70/main.cpp
-[18]: ./Python/70.py
-[19]: https://leetcode.com/problems/single-number/description/
-[20]: ./C++/136/main.cpp
-[21]: ./Python/136.py
-[22]: https://leetcode.com/problems/majority-element/
-[23]: ./C++/169/main.cpp
-[24]: ./Python/169.py
-[25]: https://leetcode.com/problems/excel-sheet-column-number/
-[26]: ./C++/171/main.cpp
-[27]: ./Python/171.py
-[28]: https://leetcode.com/problems/happy-number/
-[29]: ./C++/202/main.cpp
-[30]: ./Python/202.py
-[31]: https://leetcode.com/problems/count-primes/
-[32]: ./C++/204/main.cpp
-[33]: ./Python/204.py
-[34]: https://leetcode.com/problems/reverse-linked-list/
-[35]: ./C++/206/main.cpp
-[36]: ./Python/206.py
-[37]: https://leetcode.com/problems/palindrome-linked-list/
-[38]: ./C++/234/main.cpp
-[39]: ./Python/234.py
-[40]: https://leetcode.com/problems/add-digits/description/
-[41]: ./C++/258/main.cpp
-[42]: ./Python/258.py
-[43]: https://leetcode.com/problems/reverse-string/description/
-[44]: ./C++/258/main.cpp
-[45]: ./Python/344.py
-[46]: https://leetcode.com/problems/sum-of-two-integers/description/
-[47]: ./C++/371/main.cpp
-[48]: ./Python/371.py
-[49]: https://leetcode.com/problems/fizz-buzz/
-[50]: ./C++/412/main.cpp
-[51]: ./Python/412.py
-[52]: https://leetcode.com/problems/design-hashmap/description/
-[53]: ./C++/706/main.cpp
-[54]: ./Python/706.py
-[55]: https://leetcode.com/problems/add-two-numbers
-[56]: ./C++/2/main.cpp
-[57]: ./Python/2.py
-[58]: https://leetcode.com/problemset/top-interview-questions/
-[59]: ./C++/3/main.cpp
-[60]: ./Python/3.py
-[61]: https://leetcode.com/problems/container-with-most-water/
-[62]: ./C++/11/main.cpp
-[63]: ./Python/11.py
-[64]: https://leetcode.com/problems/3sum/description/
-[65]: ./C++/15/main.cpp
-[66]: ./Python/15.py
-[67]: https://leetcode.com/problems/permutations/
-[68]: ./C++/46/main.cpp
-[69]: ./Python/46.py
-[70]: https://leetcode.com/problems/spiral-matrix/
-[71]: ./C++/54/main.cpp
-[72]: ./Python/54.py
-[73]: https://leetcode.com/problems/median-of-two-sorted-arrays/
-[74]: ./C++/4/main.cpp
-[75]: ./Python/4.py
-[76]:  https://blog.csdn.net/whjkm/article/details/89041512
-
+  [1]: https://leetcode.com/problems/two-sum/description/
+  [2]: ./C++/1/main.cpp
+  [3]: ./Python/1.py
+  [4]: https://leetcode.com/problems/roman-to-integer/
+  [5]: ./C++/13/main.cpp
+  [6]: ./Python/13.py
+  [7]: https://leetcode.com/problems/maximum-subarray/
+  [8]: ./C++/53/main.cpp
+  [9]: ./Python/53.py
+  [10]:  https://blog.csdn.net/whjkm/article/details/89041512
+  [11]: https://leetcode.com/problems/length-of-last-word/
+  [12]: ./C++/58/main.cpp
+  [13]: ./Python/58.py
+  [14]: https://leetcode.com/problems/plus-one/description/
+  [15]: ./C++/66/main.cpp
+  [16]: ./Python/66.py
+  [17]: https://leetcode.com/problems/climbing-stairs/
+  [18]: ./C++/70/main.cpp
+  [19]: ./Python/70.py
+  [20]: https://leetcode.com/problems/single-number/description/
+  [21]: ./C++/136/main.cpp
+  [22]: ./Python/136.py
+  [23]: https://blog.csdn.net/whjkm/article/details/89058579
+  [24]: https://leetcode.com/problems/majority-element/
+  [25]: ./C++/169/main.cpp
+  [26]: ./Python/169.py
+  [27]: https://leetcode.com/problems/excel-sheet-column-number/
+  [28]: ./C++/171/main.cpp
+  [29]: ./Python/171.py
+  [30]: https://leetcode.com/problems/happy-number/
+  [31]: ./C++/202/main.cpp
+  [32]: ./Python/202.py
+  [33]: https://leetcode.com/problems/count-primes/
+  [34]: ./C++/204/main.cpp
+  [35]: ./Python/204.py
+  [36]: https://leetcode.com/problems/reverse-linked-list/
+  [37]: ./C++/206/main.cpp
+  [38]: ./Python/206.py
+  [39]: https://leetcode.com/problems/palindrome-linked-list/
+  [40]: ./C++/234/main.cpp
+  [41]: ./Python/234.py
+  [42]: https://leetcode.com/problems/add-digits/description/
+  [43]: ./C++/258/main.cpp
+  [44]: ./Python/258.py
+  [45]: https://leetcode.com/problems/reverse-string/description/
+  [46]: ./C++/258/main.cpp
+  [47]: ./Python/344.py
+  [48]: https://leetcode.com/problems/sum-of-two-integers/description/
+  [49]: ./C++/371/main.cpp
+  [50]: ./Python/371.py
+  [51]: https://leetcode.com/problems/fizz-buzz/
+  [52]: ./C++/412/main.cpp
+  [53]: ./Python/412.py
+  [54]: https://leetcode.com/problems/non-decreasing-array/
+  [55]: ./C++/665/main.cpp
+  [56]: https://leetcode.com/problems/design-hashmap/description/
+  [57]: ./C++/706/main.cpp
+  [58]: ./Python/706.py
+  [59]: https://leetcode.com/problems/add-two-numbers
+  [60]: ./C++/2/main.cpp
+  [61]: ./Python/2.py
+  [62]: https://leetcode.com/problemset/top-interview-questions/
+  [63]: ./C++/3/main.cpp
+  [64]: ./Python/3.py
+  [65]: https://leetcode.com/problems/container-with-most-water/
+  [66]: ./C++/11/main.cpp
+  [67]: ./Python/11.py
+  [68]: https://leetcode.com/problems/3sum/description/
+  [69]: ./C++/15/main.cpp
+  [70]: ./Python/15.py
+  [71]: https://leetcode.com/problems/permutations/
+  [72]: ./C++/46/main.cpp
+  [73]: ./Python/46.py
+  [74]: https://leetcode.com/problems/spiral-matrix/
+  [75]: ./C++/54/main.cpp
+  [76]: ./Python/54.py
+  [77]: https://leetcode.com/problems/median-of-two-sorted-arrays/
+  [78]: ./C++/4/main.cpp
+  [79]: ./Python/4.py
