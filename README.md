@@ -21,24 +21,28 @@ LeetCode刷题代码库
 |344|[Reverse String][45]|[C++][46]|[python][47]|String||
 |371|[Sum of Two Integers][48]|[C++][49]|[python][50]|||
 |412|[Fizz Buzz][51]|[C++][52]|[python][53]|Sum of bit||
-|665|[Non-decreasing Array][54]|[C++][55]||Array|[Solution][23]|
-|706|[Design HashMap][56]|[C++][57]|[python][58]|HashMap||
+|665|[Non-decreasing Array][54]|[C++][55]||Array|[Solution][56]|
+|706|[Design HashMap][57]|[C++][58]|[python][59]|HashMap||
+|821|[Shortest Distance to a Character][60]|[C++][61]||Array||
 
 ## Medium
 |  #  | Title      |  Solution  |Solution| Tag |  Note  |
 |-----|------------| ---------- | ------ | ----|--------|
-|2|[Add Two Numbers][59]|[C++][60]|[python][61]|Linked List|
-|3|[Longest Substring Without Repeating Characters][62]|[C++][63]|[python][64]|String|
-|11|[Container with Most Water][65]|[C++][66]|[python][67]|Array|
-|15|[3sum][68]|[C++][69]|[python][70]|Array|
-|46|[Permutations][71]|[C++][72]|[python][73]|Backtracking|
-|54|[Spiral Matrix][74]|[C++][75]|[python][76]|Array|
+|2|[Add Two Numbers][62]|[C++][63]|[python][64]|Linked List|
+|3|[Longest Substring Without Repeating Characters][65]|[C++][66]|[python][67]|String|
+|11|[Container with Most Water][68]|[C++][69]|[python][70]|Array|
+|15|[3sum][71]|[C++][72]|[python][73]|Array|
+|46|[Permutations][74]|[C++][75]|[python][76]|Backtracking|
+|54|[Spiral Matrix][77]|[C++][78]|[python][79]|Array|
+|386|[Lexicographical Numbers][80]|[C++][81]||Math|
+|845|[Longest Mountain in Array][82]|[C++][83]||Array|
+
 
 
 ## Hard
 |  #  | Title      |  Solution  |Solution| Tag |  Note  |
 |-----|------------| ---------- | ------ | ----|--------|
-|4|[Median of Two Sorted Arrays][77]|[C++][78]|[python][79]|Array|
+|4|[Median of Two Sorted Arrays][84]|[C++][85]|[python][86]|Array|
 
 
   [1]: https://leetcode.com/problems/two-sum/description/
@@ -96,27 +100,34 @@ LeetCode刷题代码库
   [53]: ./Python/412.py
   [54]: https://leetcode.com/problems/non-decreasing-array/
   [55]: ./C++/665/main.cpp
-  [56]: https://leetcode.com/problems/design-hashmap/description/
-  [57]: ./C++/706/main.cpp
-  [58]: ./Python/706.py
-  [59]: https://leetcode.com/problems/add-two-numbers
-  [60]: ./C++/2/main.cpp
-  [61]: ./Python/2.py
-  [62]: https://leetcode.com/problemset/top-interview-questions/
-  [63]: ./C++/3/main.cpp
-  [64]: ./Python/3.py
-  [65]: https://leetcode.com/problems/container-with-most-water/
-  [66]: ./C++/11/main.cpp
-  [67]: ./Python/11.py
-  [68]: https://leetcode.com/problems/3sum/description/
-  [69]: ./C++/15/main.cpp
-  [70]: ./Python/15.py
-  [71]: https://leetcode.com/problems/permutations/
-  [72]: ./C++/46/main.cpp
-  [73]: ./Python/46.py
-  [74]: https://leetcode.com/problems/spiral-matrix/
-  [75]: ./C++/54/main.cpp
-  [76]: ./Python/54.py
-  [77]: https://leetcode.com/problems/median-of-two-sorted-arrays/
-  [78]: ./C++/4/main.cpp
-  [79]: ./Python/4.py
+  [56]: https://blog.csdn.net/whjkm/article/details/89058579
+  [57]: https://leetcode.com/problems/design-hashmap/description/
+  [58]: ./C++/706/main.cpp
+  [59]: ./Python/706.py
+  [60]: https://leetcode.com/problems/shortest-distance-to-a-character/
+  [61]: ./C++/821/main.cpp
+  [62]: https://leetcode.com/problems/add-two-numbers
+  [63]: ./C++/2/main.cpp
+  [64]: ./Python/2.py
+  [65]: https://leetcode.com/problemset/top-interview-questions/
+  [66]: ./C++/3/main.cpp
+  [67]: ./Python/3.py
+  [68]: https://leetcode.com/problems/container-with-most-water/
+  [69]: ./C++/11/main.cpp
+  [70]: ./Python/11.py
+  [71]: https://leetcode.com/problems/3sum/description/
+  [72]: ./C++/15/main.cpp
+  [73]: ./Python/15.py
+  [74]: https://leetcode.com/problems/permutations/
+  [75]: ./C++/46/main.cpp
+  [76]: ./Python/46.py
+  [77]: https://leetcode.com/problems/spiral-matrix/
+  [78]: ./C++/54/main.cpp
+  [79]: ./Python/54.py
+  [80]: https://leetcode.com/problems/lexicographical-numbers/
+  [81]: ./C++/386/main.cpp
+  [82]: https://leetcode.com/problems/longest-mountain-in-array/
+  [83]: ./C++/845/main.cpp
+  [84]: https://leetcode.com/problems/median-of-two-sorted-arrays/
+  [85]: ./C++/4/main.cpp
+  [86]: ./Python/4.py
