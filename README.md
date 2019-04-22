@@ -6,11 +6,11 @@ LeetCode刷题代码库
 |-----|-------- | ---------- | ------ | ----|--------|
 |1|[Two Sum][1]|[C++][2]|[python][3]|List||
 |13|[Roman to Integer][4]|[C++][5]|[python][6]|String||
-|53|[Maximum Subarray][7]|[C++][8]|[python][9]|Array|[Solution][10]|
+|53|[Maximum Subarray][7]|[C++][8]|[python][9]|Array|[CSDN][10]|
 |58|[Length of Last Word][11]|[c++][12]|[pyhton][13]|String||
 |66|[Plus One][14]|[C++][15]|[python][16]|||
 |70|[Climbing Stairs][17]|[C++][18]|[python][19]|DP||
-|136|[Single Number][20]|[C++][21]|[python][22]||[Solution][23]|
+|136|[Single Number][20]|[C++][21]|[python][22]||[CSDN][23]|
 |169|[Majority Element][24]|[C++][25]|[python][26]|Array||
 |171|[Excel Sheet Column Number][27]|[C++][28]|[python][29]|Array||
 |202|[Happy Number][30]|[C++][31]|[python][32]|Math||
@@ -21,28 +21,29 @@ LeetCode刷题代码库
 |344|[Reverse String][45]|[C++][46]|[python][47]|String||
 |371|[Sum of Two Integers][48]|[C++][49]|[python][50]|||
 |412|[Fizz Buzz][51]|[C++][52]|[python][53]|Sum of bit||
-|665|[Non-decreasing Array][54]|[C++][55]||Array|[Solution][56]|
+|665|[Non-decreasing Array][54]|[C++][55]||Array|[CSDN][56]|
 |706|[Design HashMap][57]|[C++][58]|[python][59]|HashMap||
-|821|[Shortest Distance to a Character][60]|[C++][61]||Array||
+|821|[Shortest Distance to a Character][60]|[C++][61]||Array|[CSDN][92]|
 
 ## Medium
 |  #  | Title      |  Solution  |Solution| Tag |  Note  |
 |-----|------------| ---------- | ------ | ----|--------|
-|2|[Add Two Numbers][62]|[C++][63]|[python][64]|Linked List|
-|3|[Longest Substring Without Repeating Characters][65]|[C++][66]|[python][67]|String|
-|11|[Container with Most Water][68]|[C++][69]|[python][70]|Array|
-|15|[3sum][71]|[C++][72]|[python][73]|Array|
-|46|[Permutations][74]|[C++][75]|[python][76]|Backtracking|
-|54|[Spiral Matrix][77]|[C++][78]|[python][79]|Array|
-|386|[Lexicographical Numbers][80]|[C++][81]||Math|
-|845|[Longest Mountain in Array][82]|[C++][83]||Array|
+|2|[Add Two Numbers][63]|[C++][64]|[python][65]|Linked List|
+|3|[Longest Substring Without Repeating Characters][66]|[C++][67]|[python][68]|String|
+|11|[Container with Most Water][69]|[C++][70]|[python][71]|Array|
+|15|[3sum][72]|[C++][73]|[python][74]|Array|
+|46|[Permutations][75]|[C++][76]|[python][77]|Backtracking|
+|54|[Spiral Matrix][78]|[C++][79]|[python][80]|Array|
+|386|[Lexicographical Numbers][81]|[C++][82]||Math|[CSDN][92]|
+|845|[Longest Mountain in Array][84]|[C++][85]||Array|[CSDN][92]|
 
 
 
 ## Hard
 |  #  | Title      |  Solution  |Solution| Tag |  Note  |
 |-----|------------| ---------- | ------ | ----|--------|
-|4|[Median of Two Sorted Arrays][84]|[C++][85]|[python][86]|Array|
+|4|[Median of Two Sorted Arrays][87]|[C++][88]|[python][89]|Array|
+|440|[K-th Smallest in Lexicographical Order][90]|[C++][91]||Math|[CSDN][92]|
 
 
   [1]: https://leetcode.com/problems/two-sum/description/
@@ -106,28 +107,31 @@ LeetCode刷题代码库
   [59]: ./Python/706.py
   [60]: https://leetcode.com/problems/shortest-distance-to-a-character/
   [61]: ./C++/821/main.cpp
-  [62]: https://leetcode.com/problems/add-two-numbers
-  [63]: ./C++/2/main.cpp
-  [64]: ./Python/2.py
-  [65]: https://leetcode.com/problemset/top-interview-questions/
-  [66]: ./C++/3/main.cpp
-  [67]: ./Python/3.py
-  [68]: https://leetcode.com/problems/container-with-most-water/
-  [69]: ./C++/11/main.cpp
-  [70]: ./Python/11.py
-  [71]: https://leetcode.com/problems/3sum/description/
-  [72]: ./C++/15/main.cpp
-  [73]: ./Python/15.py
-  [74]: https://leetcode.com/problems/permutations/
-  [75]: ./C++/46/main.cpp
-  [76]: ./Python/46.py
-  [77]: https://leetcode.com/problems/spiral-matrix/
-  [78]: ./C++/54/main.cpp
-  [79]: ./Python/54.py
-  [80]: https://leetcode.com/problems/lexicographical-numbers/
-  [81]: ./C++/386/main.cpp
-  [82]: https://leetcode.com/problems/longest-mountain-in-array/
-  [83]: ./C++/845/main.cpp
-  [84]: https://leetcode.com/problems/median-of-two-sorted-arrays/
-  [85]: ./C++/4/main.cpp
-  [86]: ./Python/4.py
+  [63]: https://leetcode.com/problems/add-two-numbers
+  [64]: ./C++/2/main.cpp
+  [65]: ./Python/2.py
+  [66]: https://leetcode.com/problemset/top-interview-questions/
+  [67]: ./C++/3/main.cpp
+  [68]: ./Python/3.py
+  [69]: https://leetcode.com/problems/container-with-most-water/
+  [70]: ./C++/11/main.cpp
+  [71]: ./Python/11.py
+  [72]: https://leetcode.com/problems/3sum/description/
+  [73]: ./C++/15/main.cpp
+  [74]: ./Python/15.py
+  [75]: https://leetcode.com/problems/permutations/
+  [76]: ./C++/46/main.cpp
+  [77]: ./Python/46.py
+  [78]: https://leetcode.com/problems/spiral-matrix/
+  [79]: ./C++/54/main.cpp
+  [80]: ./Python/54.py
+  [81]: https://leetcode.com/problems/lexicographical-numbers/
+  [82]: ./C++/386/main.cpp
+  [84]: https://leetcode.com/problems/longest-mountain-in-array/
+  [85]: ./C++/845/main.cpp
+  [87]: https://leetcode.com/problems/median-of-two-sorted-arrays/
+  [88]: ./C++/4/main.cpp
+  [89]: ./Python/4.py
+  [90]: https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/
+  [91]: ./C++/440/main.cpp
+  [92]: https://blog.csdn.net/whjkm/article/details/89460667
