@@ -3,7 +3,38 @@
 #include <algorithm>
 #include <cstring>
 #include <vector>
+using namespace std;
+class Solution {
+public:
+    vector<vector<int>> res;
+    vector<vector<int>> permute(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        vector<int> subset;
+        vector<bool> visited(nums.size(), false);
+        DFS(subset, nums, visited);
+        return res;
+    }
+    void DFS(vector<int> subset, vector<int>& nums, vector<bool>& visited)
+    {
+        if(subset.size() == nums.size())
+        {
+            res.push_back(subset);
+            return;
+        }
+        for(int i = 0; i < nums.size(); ++i)
+        {
+            if(visited[i]) continue;
+            if(i != 0 && nums[i] == nums[i-1] && !visited[i]) continue;
+            visited[i] = true;
+            subset.push_back(nums[i]);
+            DFS(subset, nums, visited);
+            subset.pop_back();
+            visited[i] = false;
+        }
+    }
+};
 
+/*
 using namespace std;
 class Solution {
 public:
@@ -37,6 +68,7 @@ public:
         return res;
     }
 };
+*/
 
 int main()
 {

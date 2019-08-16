@@ -33,21 +33,26 @@ LeetCode刷题代码库
 |3|[Longest Substring Without Repeating Characters][68]|[C++][69]|[python][70]|String|
 |11|[Container with Most Water][71]|[C++][72]|[python][73]|Array|
 |15|[3sum][74]|[C++][75]|[python][76]|Array|
-|39|[Combination Sum][77]|[C++][78]||Backtracking|
-|40|[Combination Sum II][79]|[C++][80]||Backtracking|
-|46|[Permutations][81]|[C++][82]|[python][83]|Backtracking|
-|54|[Spiral Matrix][84]|[C++][85]|[python][86]|Array|
-|216|[Combination Sum III][87]|[C++][88]||Backtracking|
-|386|[Lexicographical Numbers][89]|[C++][90]||Math|[CSDN][91]|
-|845|[Longest Mountain in Array][92]|[C++][93]||Array|[CSDN][94]|
+|22|[Generate Parentheses][77]|[C++][78]||Backtracking|
+|31|[Next Permutation][79]|[C++][80]||Array|
+|39|[Combination Sum][81]|[C++][82]||Backtracking|
+|40|[Combination Sum II][83]|[C++][84]||Backtracking|
+|46|[Permutations][85]|[C++][86]|[python][87]|Backtracking|
+|47|[Permutations II][88]|[C++][89]||Backtracking|
+|54|[Spiral Matrix][90]|[C++][91]|[python][92]|Array|
+|78|[Subsets][93]|[C++][94]||Backtracking|
+|79|[Word Search][95]|[C++][96]||Backtracking|
+|216|[Combination Sum III][97]|[C++][98]||Backtracking|
+|386|[Lexicographical Numbers][99]|[C++][100]||Math|[CSDN][101]|
+|845|[Longest Mountain in Array][102]|[C++][103]||Array|[CSDN][104]|
 
 
 
 ## Hard
 |  #  | Title      |  Solution  |Solution| Tag |  Note  |
 |-----|------------| ---------- | ------ | ----|--------|
-|4|[Median of Two Sorted Arrays][95]|[C++][96]|[python][97]|Array|
-|440|[K-th Smallest in Lexicographical Order][98]|[C++][99]||Math|[CSDN][100]|
+|4|[Median of Two Sorted Arrays][105]|[C++][106]|[python][107]|Array|
+|440|[K-th Smallest in Lexicographical Order][108]|[C++][109]||Math|[CSDN][110]|
 
 
   [1]: https://leetcode.com/problems/two-sum/description/
@@ -126,27 +131,37 @@ LeetCode刷题代码库
   [74]: https://leetcode.com/problems/3sum/description/
   [75]: ./C++/15/main.cpp
   [76]: ./Python/15.py
-  [77]: https://leetcode.com/problems/combination-sum/
-  [78]: ./C++/39/main.cpp
-  [79]: https://leetcode.com/problems/combination-sum-ii/
-  [80]: ./C++/40/main.cpp
-  [81]: https://leetcode.com/problems/permutations/
-  [82]: ./C++/46/main.cpp
-  [83]: ./Python/46.py
-  [84]: https://leetcode.com/problems/spiral-matrix/
-  [85]: ./C++/54/main.cpp
-  [86]: ./Python/54.py
-  [87]: https://leetcode.com/problems/combination-sum-iii/
-  [88]: ./C++/216/main.cpp
-  [89]: https://leetcode.com/problems/lexicographical-numbers/
-  [90]: ./C++/386/main.cpp
-  [91]: https://blog.csdn.net/whjkm/article/details/89460667
-  [92]: https://leetcode.com/problems/longest-mountain-in-array/
-  [93]: ./C++/845/main.cpp
-  [94]: https://blog.csdn.net/whjkm/article/details/89460667
-  [95]: https://leetcode.com/problems/median-of-two-sorted-arrays/
-  [96]: ./C++/4/main.cpp
-  [97]: ./Python/4.py
-  [98]: https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/
-  [99]: ./C++/440/main.cpp
-  [100]: https://blog.csdn.net/whjkm/article/details/89460667
+  [77]: https://leetcode.com/problemset/all/?search=22
+  [78]: ./C++/22/main.cpp
+  [79]: https://leetcode.com/problems/next-permutation/
+  [80]: ./C++/31/main.cpp
+  [81]: https://leetcode.com/problems/combination-sum/
+  [82]: ./C++/39/main.cpp
+  [83]: https://leetcode.com/problems/combination-sum-ii/
+  [84]: ./C++/40/main.cpp
+  [85]: https://leetcode.com/problems/permutations/
+  [86]: ./C++/46/main.cpp
+  [87]: ./Python/46.py
+  [88]: https://leetcode.com/problems/permutations-ii/
+  [89]: ./C++/47/main.cpp
+  [90]: https://leetcode.com/problems/spiral-matrix/
+  [91]: ./C++/54/main.cpp
+  [92]: ./Python/54.py
+  [93]: https://leetcode.com/problems/subsets/
+  [94]: ./C++/78/main.cpp
+  [95]: https://leetcode.com/problems/word-search/
+  [96]: ./C++/79/main.cpp
+  [97]: https://leetcode.com/problems/combination-sum-iii/
+  [98]: ./C++/216/main.cpp
+  [99]: https://leetcode.com/problems/lexicographical-numbers/
+  [100]: ./C++/386/main.cpp
+  [101]: https://blog.csdn.net/whjkm/article/details/89460667
+  [102]: https://leetcode.com/problems/longest-mountain-in-array/
+  [103]: ./C++/845/main.cpp
+  [104]: https://blog.csdn.net/whjkm/article/details/89460667
+  [105]: https://leetcode.com/problems/median-of-two-sorted-arrays/
+  [106]: ./C++/4/main.cpp
+  [107]: ./Python/4.py
+  [108]: https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/
+  [109]: ./C++/440/main.cpp
+  [110]: https://blog.csdn.net/whjkm/article/details/89460667
