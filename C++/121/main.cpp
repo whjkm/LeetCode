@@ -2,8 +2,22 @@
 #include <vector>
 using namespace std;
 
+// 求一个最大的连续子数组  Kadane's Algorithm
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int sum = 0, max_sum = 0;
+        for(int i = 1; i < prices.size(); ++i)
+        {
+            sum = max(0, sum += prices[i]-prices[i-1]);
+            max_sum = max(sum, max_sum);
+        }
+        return max_sum;
+    }
+};
 // minPrice is the minimum price from day 0 to day i.
 //And maxPro is the maximum profit we can get from day 0 to day i.
+/*
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -17,6 +31,7 @@ public:
         return res;
     }
 };
+*/
 
 int main()
 {
