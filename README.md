@@ -161,7 +161,7 @@ LeetCode刷题代码库
   [63]: ./C++/258/main.cpp
   [64]: ./Python/258.py
   [65]: https://leetcode.com/problems/reverse-string/description/
-  [66]: ./C++/258/main.cpp
+  [66]: ./C++/344/main.cpp
   [67]: ./Python/344.py
   [68]: https://leetcode.com/problems/sum-of-two-integers/description/
   [69]: ./C++/371/main.cpp
